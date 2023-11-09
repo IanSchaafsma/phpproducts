@@ -1,0 +1,64 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* main page */
+
+.cards{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.cards__card{
+    min-height: 40rem;
+    height: 100%;
+    background: rgb(234, 234, 234);
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards__cardTitle{
+
+}
+
+.cards__cardDesc{
+
+}
+
+.cards__cardLink{
+}
+
+/* character page */
+
+.charPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black; 
+    color: white;
+    flex-direction: column;
+}
